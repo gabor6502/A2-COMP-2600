@@ -4,6 +4,8 @@ SITEURL = ""
 
 PATH = "content"
 
+THEME = "bootstrap2-dark"
+
 TIMEZONE = 'America/Winnipeg'
 
 DEFAULT_LANG = 'English'
