@@ -2,7 +2,7 @@
 
 ## Purpose:
 
-Instruct readers on how to format and host a resume on a static website using Pelican and GitHub. This is intended for those with little knowledge in the afformentioned but who have basic computer skills. This is intended for users with a Windows operating system.
+This document will instruct readers on how to format and host a resume on a static website using Pelican and GitHub. This is intended for those with little knowledge in the afformentioned but who have basic computer skills. This is intended for users with a Windows operating system.
 
 ## Prerequisites:
 
