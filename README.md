@@ -65,7 +65,7 @@ Create or adapt your current resume into Markdown, taking advantage of its organ
 
 ### Hosting the Pelican Resume Website with GitHub Pages
 
-Follow the [tutorial here](https://docs.getpelican.com/en/latest/tips.html#publishing-to-github-pages-using-a-custom-github-actions-workflow) to host your website on GitHub pages.
+Follow the [tutorial here](https://antonellocalamea.medium.com/step-by-step-guide-to-setup-a-web-site-using-pelican-and-gitpages-5de976ae44cb) to host your website on GitHub pages.
 
 >*Etter's Principles*: By now the user has a website to allowed easy access for anyone to view the information they provide, collaborate if needed, and update said info when ready. Single sourcing used again.
 
