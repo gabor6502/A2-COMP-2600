@@ -14,10 +14,10 @@ _B.Sc. Computer Science Major (Co-op Option), Minor in Mathematics_
 ***
 ## Technical Skills
 
- - **Application development:** C/C++, OpenGL, CUDA, and Java.
+ - **Application Development:** C/C++, OpenGL, CUDA, and Java.
  - **Front-End:** React.js, Bootstrap, and HTML/CSS.
  - **Back-End:** Spring, Typescript, Node/Express.js, Nest.js, and Grails
- - **Database management:** PostgreSQL, TypeORM, MikrORM, Oracle, HSQLDB, H2, and SQLite.
+ - **Database Management:** PostgreSQL, TypeORM, MikrORM, Oracle, HSQLDB, H2, and SQLite.
  - **Testing:** JUnit, Mockito, and Jest.
  - **Containerization:** Docker/Podman.
  - **Source Control:** Git and Azure Dev-ops.
@@ -123,8 +123,8 @@ University of Winnipeg Collegiate
 
 ## Contact Me
 
-Email: [elan.gabor@gmail.com]()
+[Email]elan.gabor@gmail.com)
 
-Linkedin: [linkedin.com/in/elan-gabor/]()
+[Linkedin](linkedin.com/in/elan-gabor/)
 
 Cell: 204-880-5330
