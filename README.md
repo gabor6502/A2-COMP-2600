@@ -4,7 +4,7 @@
 
 This document will instruct readers on how to format and host a resume on a website using Pelican and GitHub. This is intended for those with little knowledge in the aforementioned but who have basic computer skills. This is intended for users with a Windows operating system.
 
->*Etter's Principles*: 
+>*Etter's Principles*: Identified audience and technical level.
 
 ## Prerequisites
 
@@ -19,15 +19,11 @@ Python is a popular programming language that is used by Pelican to create websi
 
 You will not need to learn how to program in Python for this document's purpose. 
 
->*Etter's Principles*: 
-
 #### Git
 
 Git is a distributed version control system. This will be used to interact with a repository where we can store the website files. A repository can allow for other users to view your website's code and collaborate if desired. Follow the three steps listed on GitHub's [getting started website](https://docs.github.com/en/get-started/git-basics/set-up-git#setting-up-git). 
 
 Note that when this article tells you to open Bash, they mean open the command line or terminal. The commands of their operating system are equivalent in yours.
-
->*Etter's Principles*: 
 
 ### GitHub and GitHub CLI
 
@@ -37,7 +33,7 @@ You will also need the GitHub CLI. *CLI* stands for "Command line interface", so
 
 `gh auth login`
 
->*Etter's Principles*: 
+>*Etter's Principles*: Single sourcing with links and use of subheadings to encourage scannablility and readablility. Promoting Git and GitHub also encourages distributed version control and all the benefits that come from it.
 
 ## Instructions
 
@@ -55,42 +51,23 @@ When you run your first Pelican website, you will notice that your command line 
 
 These web addresses are the same thing. Your computer is hosting the website (providing the website resources for a browser to view it) for you and you only, locally. Furthermore, as mentioned in the image and in your command prompt, you may type Ctrl+C to stop the hosting and regain use of your terminal.
 
->*Etter's Principles*: 
+>*Etter's Principles*: Images used to enhance content, understanding, and navigation.
 
-### Setting Up a GitHub Repository
+### Setting Up a GitHub Repository and Adding Content
 
 Now that you have your Pelican project setup as a folder on your computer, it's time to set up a repository for said files. Navigate to the GitHub website and follow [this GitHub repository creation tutorial](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository#creating-a-new-repository-from-the-web-ui) to create an empty repository.
 
->*Etter's Principles*: 
+Open you command prompt and navigate to the directory that holds your Pelican project. Follow [the tutorial here](https://www.datacamp.com/tutorial/git-push-pull) to add your Pelican website to the git repository.
 
-### Adding your Pelican Project into a GitHub Repository
+### Creating and Hosting your Resume Website
 
-Open you command prompt and navigate to the directory that holds your Pelican project. Enter the following commands:
-
-1. `git init` - this will initialize a new repository (to be sent to GitHub) within your Pelican project
-2. 
-
->*Etter's Principles*: 
-
-### Commiting and Pushing to a GitHub Repository
-
->*Etter's Principles*: 
-
-### Creating a Resume in Markdown
-
->*Etter's Principles*: 
-
-### Adding the Markdown Resume to Pelican
-
->*Etter's Principles*: 
-
-### Rendering and Launching a Pelican Website with the Resume
-
->*Etter's Principles*: 
+Create or adapt your current resume into Markdown, taking advantage of its organizational features (headers, lists, etc.) and applying the Pelican specific, `Author`, `Date`, and `Category` attributes at the top of this file. Put this Markdown file in the `content` folder of your Pelican project, and use the command line to preview your website.
 
 ### Hosting the Pelican Resume Website with GitHub Pages
 
->*Etter's Principles*: 
+Follow the [tutorial here](https://docs.getpelican.com/en/latest/tips.html#publishing-to-github-pages-using-a-custom-github-actions-workflow) to host your website on GitHub pages.
+
+>*Etter's Principles*: By now the user has a website to allowed easy access for anyone to view the information they provide, collaborate if needed, and update said info when ready. Single sourcing used again.
 
 ## Further Resources/Readings
 
@@ -101,10 +78,15 @@ Please consult the following tutorials and references to broaden your knowledge 
 - [Interactive Markdown Tutorial](https://www.markdowntutorial.com/)
 - [GitHub Pages Quickstart](https://docs.github.com/en/pages/quickstart)
 
->*Etter's Principles*: 
+>*Etter's Principles*: Relevant further readings to increase reader's knowledge on the topics discussed.
 
 ## FAQ
 
+Q: Why is Markdown better than writing raw HTML?
+A: Markdown is great for organizing text into readable content, whereas HTML has more functionality than just that, so we don't need all the features that HTML provides, which makes rendering webpages with Markdown faster and easier. Furthermore Markdown has shorter/concise syntax where as HTML tags can clutter a document.
+
+Q: I changed the Markdown version of my resume, so why don’t I see the changes when I refresh the website in my browser?
+A: If you are waiting for the website hosted by the forge to change, then this is because you must commit and push your changes to the repository so the website the browser is looking at actually changes. If you don't see the changes from a Pelican preview, it may be because of cached data on browser, and hitting Ctrl+F5 will refresh the page with the changes. Also make sure that when you are expecting the changes, the Pelican preview is indeed live. 
 
 ## Credits
 
